@@ -1253,7 +1253,7 @@ database.set(2307, 'Mistress')
 database.set(2308, 'Zanzou')
 database.set(2309, 'Bungisngis')
 database.set(2310, 'Engkanto')
-database.set(2311, 'Manananggal')ca
+database.set(2311, 'Manananggal')
 database.set(2312, 'Mangkukulam')
 database.set(2313, 'Tikbalang')
 database.set(2314, 'Tiyanak')
