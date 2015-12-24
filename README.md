@@ -11,6 +11,7 @@ Deposite o arquivo desejado para a tradução na mesma pasta onde consta o arqui
 * mob_branch.txt
 * mob_poring.txt
 * mob_boss.txt
+* pet_db.txt
 
 Após o depósito do arquivo, inicialize o script através de um console digitando o seguinte comando:
 

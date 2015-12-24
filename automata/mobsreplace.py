@@ -8,6 +8,10 @@
 # ###################
 
 name_db = sys.argv[1]
+if name_db == 'pet_db.txt':
+	name_arg_pos = 2
+else:
+	name_arg_pos = 1
 
 class database:
 	#db = []
@@ -63,9 +67,9 @@ for elm in lines:
 	if arg[0].isdigit():
 		total_mobs += 1
 		log(0, "id " + str(arg[0]) + " (" + str(round(pos / float(len(lines)) * 100, 2)) + "% concluido)")
-		new_name = database.get(int(arg[0]), arg[1])
+		new_name = database.get(int(arg[0]), arg[name_arg_pos])
 		if new_name != '#Error#':
-			str_text = str_text.replace(','+arg[1]+',', ','+new_name+',')
+			str_text = str_text.replace(','+arg[name_arg_pos]+',', ','+new_name+',')
 			mobs_translated += 1
 
 log(2, "(100% concluido) "+name_db+".conf traduzido.")
