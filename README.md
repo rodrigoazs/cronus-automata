@@ -8,9 +8,12 @@ Deposite o arquivo desejado para a tradução na mesma pasta onde consta o arqui
 
 * item_db.conf
 * mob_db.conf
+* mob_branch.txt
+* mob_poring.txt
+* mob_boss.txt
 
 Após o depósito do arquivo, inicialize o script através de um console digitando o seguinte comando:
 
-`python execute.py item_db`
+`python execute.py item_db.conf`
 
 O programa se responsibilizará da tradução do arquivo junto com o histórico das informações projetadas no console (na pasta log/) e do itens ou mobs que não foram traduzidos (estes serão criados na pasta non_db/).
