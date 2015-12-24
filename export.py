@@ -1,5 +1,12 @@
 # coding=UTF-8	
 
+# ###################
+# Descrição:
+#		Arquivo para exportar o banco de dados
+#
+# Autor: Rodrigo Azevedo
+# ###################
+
 class database:
 	#db = []
 	db = {}

@@ -1,6 +1,17 @@
 # coding=UTF-8	
 
-name_db = sys.argv[1]
+# ###################
+# Descrição:
+#		Autômato desenvolvido para traduzir os arquivos de itens e mobs
+#		do Cronus.
+#
+# Autor: Rodrigo Azevedo
+# ###################
+
+if sys.argv[1] == 'item_db.conf':
+	name_db = 'item_db'
+else:
+	name_db = 'mob_db'
 
 class database:
 	#db = []
